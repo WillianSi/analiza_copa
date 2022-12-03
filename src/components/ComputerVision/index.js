@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { computerVision, isConfigured as ComputerVisionIsConfigured } from './azure-cognitiveservices-computervision';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import "./index.css";
+import Gif from "./andar.gif";
 
 function ComputerVision() {
 
@@ -123,7 +124,7 @@ const DisplayCapition = () => {
           <button className='btn btn-secondary' onClick={sendImage}>Analisar</button> 
         </div>
       }
-      {processing && <div className="text">Processing</div>}
+      {processing && <div className="text">Processing <img className="gif" src={Gif} alt="Copa gif" /></div>}
       <hr />
       {analysis && DisplayResults()}
       </div>

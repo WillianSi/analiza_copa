@@ -24,7 +24,7 @@ a {
     }
 #root {
     background-color: var(--blackLighter);
-    background-image: url(../public/copa1.jpg);
+    background-image: url(../public/copa.jpg);
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - var(--bodyPaddingTop));

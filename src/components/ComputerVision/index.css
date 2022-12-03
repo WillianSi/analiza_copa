@@ -61,3 +61,7 @@ button:hover {
     font-weight: bold;
     background-color: rgba(138, 36, 31, 0.726);
 }
+
+.gif {
+   max-width: 30px; 
+}
